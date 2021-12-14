@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+
+}
+
+.container {
+    /* position: relative;
+    transform: translate(-50%, 50%); */
+    max-width: 30rem;
+    margin: 15rem auto 0;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+
+}
+
+.container__content {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.nft {
+    width: 100%;
+    text-align: center;
+}
+
+.nft__img {
+    width: 100%;
+    border-radius: 0.6rem;
+
+}
+
+.nft__name {
+    font-size: 1.8rem;
+    color: white;
+    margin: 1rem 0;
+}
+
+.nft__description {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: hsl(216, 19%, 63%);
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.nft__left {
+    font-size: 1.4rem;
+    color: hsl(178, 100%, 50%);
+}
+
+.soft__line {
+    border: none;
+    height: 0.5px;
+    background-color: hsla(0, 0%, 100%, 0.205);
+    outline: 0;
+    opacity: 50%;
+}
+
+.nft__infos {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.nft__quantity {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nft__date {
+    color: hsl(215, 51%, 70%);
+    font-size: 1.4rem;
+}
+
+.nft__quantity__left {
+    color: hsl(178, 100%, 50%);
+    font-size: 1.4rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    gap: 1.2rem;
+}
+
+.avatar {
+    width: 12%;
+    border: white 1px solid;
+    border-radius: 2rem;
+}
+
+.creator {
+    color: hsl(216, 19%, 63%);
+    font-size: 1.4rem;
+}
+
+.owner {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.3rem;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 5rem;
+    color: purple;
+    line-height: 1.8;
+}
+
+.coder {
+    color: gold;
+}
+
+.link {
+    color: honeydew;
+}
+
+.coder,
+.link {
+    text-decoration: none;
+}
+
+@media only screen and (max-width : 20em) {
+    .attribution {
+        margin: 2rem 5rem;
+    }
+}
