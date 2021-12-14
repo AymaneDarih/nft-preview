@@ -43,6 +43,20 @@ body {
     border-radius: 0.6rem;
 
 }
+.nft__shadow {
+    position: absolute;
+    width: 100%;
+    height: 98%;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 0.6rem;
+    top: 0;
+    left: 0;
+    background-image: url(./images/icon-view.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 60%;
+
+}
 
 .nft__name {
     font-size: 1.8rem;
